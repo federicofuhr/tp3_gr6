@@ -1,4 +1,4 @@
-package tp3.gr1.rest;
+package tp3.gr6.rest;
 
 import java.util.List;
 
@@ -6,12 +6,12 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-import tp3.gr1.dao.CarreraDAO;
-import tp3.gr1.dao.EstudianteDAO;
-import tp3.gr1.dao.MatriculaDAO;
-import tp3.gr1.entidades.ReporteCarrerasPorAnio;
-import tp3.gr1.entidades.ReporteGraduadosCarrerasPorAnio;
-import tp3.gr1.entidades.ReporteInscriptosCarrerasPorAnio;
+import tp3.gr6.dao.CarreraDAO;
+import tp3.gr6.dao.EstudianteDAO;
+import tp3.gr6.dao.MatriculaDAO;
+import tp3.gr6.entidades.ReporteCarrerasPorAnio;
+import tp3.gr6.entidades.ReporteGraduadosCarrerasPorAnio;
+import tp3.gr6.entidades.ReporteInscriptosCarrerasPorAnio;
 
 /**
  * Servlet implementation class LectorCicloVida

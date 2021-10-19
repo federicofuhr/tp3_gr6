@@ -1,4 +1,4 @@
-package tp3.gr1.entidades;
+package tp3.gr6.entidades;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import tp3.gr1.dao.CarreraDAO;
+import tp3.gr6.dao.CarreraDAO;
 
 public class ReporteCarrerasPorAnio {
 	

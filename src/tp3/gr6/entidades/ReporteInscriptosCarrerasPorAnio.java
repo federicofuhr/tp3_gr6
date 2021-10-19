@@ -1,4 +1,4 @@
-package tp3.gr1.entidades;
+package tp3.gr6.entidades;
 
 import java.math.BigInteger;
 

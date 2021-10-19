@@ -1,4 +1,4 @@
-package tp3.gr1.rest;
+package tp3.gr6.rest;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import tp3.gr1.entidades.Carrera;
+import tp3.gr6.entidades.Carrera;
 
 @Path("/carreras")
 public class CarreraREST {

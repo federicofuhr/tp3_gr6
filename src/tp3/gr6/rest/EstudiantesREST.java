@@ -1,4 +1,4 @@
-package tp3.gr1.rest;
+package tp3.gr6.rest;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

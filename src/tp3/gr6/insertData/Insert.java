@@ -1,4 +1,4 @@
-package tp3.gr1.insertData;
+package tp3.gr6.insertData;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -6,9 +6,9 @@ import java.io.IOException;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 
-import tp3.gr1.dao.CarreraDAO;
-import tp3.gr1.dao.EstudianteDAO;
-import tp3.gr1.dao.MatriculaDAO;
+import tp3.gr6.dao.CarreraDAO;
+import tp3.gr6.dao.EstudianteDAO;
+import tp3.gr6.dao.MatriculaDAO;
 
 public class Insert {
 

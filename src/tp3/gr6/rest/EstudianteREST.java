@@ -1,11 +1,11 @@
-package tp3.gr1.rest;
+package tp3.gr6.rest;
 
 import java.util.List;
 import javax.ws.rs.*;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import tp3.gr1.entidades.Estudiante;
+import tp3.gr6.entidades.Estudiante;
 
 @Path("/estudiantes/")
 public class EstudianteREST {

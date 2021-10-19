@@ -1,4 +1,4 @@
-package tp3.gr1.rest;
+package tp3.gr6.rest;
 
 import java.sql.Date;
 import java.text.SimpleDateFormat;
@@ -14,10 +14,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import tp3.gr1.entidades.Carrera;
-import tp3.gr1.entidades.Estudiante;
-import tp3.gr1.entidades.InfoCarrera;
-import tp3.gr1.entidades.Matricula;
+import tp3.gr6.entidades.Carrera;
+import tp3.gr6.entidades.Estudiante;
+import tp3.gr6.entidades.InfoCarrera;
+import tp3.gr6.entidades.Matricula;
 
 @Path("/matriculas")
 public class MatriculaREST {

@@ -1,4 +1,4 @@
-package tp3.gr1.dao;
+package tp3.gr6.dao;
 
 import java.io.Serializable;
 import java.util.List;
@@ -11,9 +11,9 @@ import javax.persistence.Query;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 
-import tp3.gr1.entidades.Carrera;
-import tp3.gr1.entidades.Estudiante;
-import tp3.gr1.entidades.Matricula;
+import tp3.gr6.entidades.Carrera;
+import tp3.gr6.entidades.Estudiante;
+import tp3.gr6.entidades.Matricula;
 
 public class MatriculaDAO implements Serializable {
 

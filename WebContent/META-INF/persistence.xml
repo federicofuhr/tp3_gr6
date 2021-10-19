@@ -6,9 +6,9 @@
 	<persistence-unit name="Example">		
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		
-		<class>tp3.gr1.entidades.Estudiante</class>
-		<class>tp3.gr1.entidades.Carrera</class>
-		<class>tp3.gr1.entidades.Matricula</class>
+		<class>tp3.gr6.entidades.Estudiante</class>
+		<class>tp3.gr6.entidades.Carrera</class>
+		<class>tp3.gr6.entidades.Matricula</class>
 		
 		<properties>
 				<!--  Propiedades de configuracion de JDBC para MySQL	-->		
