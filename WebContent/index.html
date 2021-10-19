@@ -44,7 +44,7 @@
 		    	</thead>
 			</table>
 
-		<form action="/TP3_GR1/rest/estudiantes/nuevoEstudiante" method="post">
+		<form action="/TP3_GR6/rest/estudiantes/nuevoEstudiante" method="post">
 			<h2>Agregar nuevo estudiante</h2>
 			<div class="form-group">
 				<input class="form-control" type="text" name="nombre" placeholder="Nombre">
@@ -77,7 +77,7 @@
 	<!-- Busqueda de estudiantes -->
 	<div class="container">
         <h1>Buscar estudiante:</h1>
-		<form action="/TP3_GR1/rest/estudiantes/genero/" method="POST">
+		<form action="/TP3_GR6/rest/estudiantes/genero/" method="POST">
             <h2>Estudiantes por genero</h2>
             <div class="form-group">
 			<select class="form-control" name="genero" id="">
@@ -89,7 +89,7 @@
         </form>
         
 	
-		<form action="/TP3_GR1/rest/estudiantes/listaEstudiantesCarrerasResidencia/" method="POST">
+		<form action="/TP3_GR6/rest/estudiantes/listaEstudiantesCarrerasResidencia/" method="POST">
 			<h2>Estudiante por carrera y ciudad de residencia</h2>
             <div class="form-group">
             <input class="form-control" type="text" name="carrera" id="" placeholder="Carrera">
@@ -100,7 +100,7 @@
             <button class="btn btn-primary" type="submit" value="submit"> Buscar</button>
 		</form>
 	
-		<form action="/TP3_GR1/rest/estudiantes/obtenerEstudiante" method="GET">
+		<form action="/TP3_GR6/rest/estudiantes/obtenerEstudiante" method="GET">
 			<h2>Buscar estudiante segun el número de libreta universitaria</h2>
         <div  class="form-group">            <input  class="form-control" type="number" name="id" min="0" step="1" placeholder="Legajo">
         </div>
